@@ -72,8 +72,6 @@ function tieneEmail(usuario) {
   return false;
 }
 
-
-
 function tienePropiedad(objeto, propiedad) {
   // Devuelve "true" si el objeto (parámetro "objeto") tiene una propiedad (key) cuyo nombre es igual al valor del argumento "propiedad"
   // "propiedad" es un string
@@ -121,7 +119,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for (let i=0; i < usuarios.length; i++){
+  for (let i = 0; i < usuarios.length; i++){
     usuarios[i].esPremium = true;
   }
   return usuarios;
